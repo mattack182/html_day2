@@ -1,12 +1,15 @@
 .facebook {
 	width: 3%;
+	vertical-align: text-bottom;
 }
 .instagram {
-	width: 4%;
+	width: 3%;
+	vertical-align: text-bottom;
 }
+
 .facebook_crop {	
 	width: 200px;
-	height: 200px;			
+	height: 200px;	
 	overflow: hidden;
 }
 .facebook_crop img {
