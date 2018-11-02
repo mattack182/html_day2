@@ -1,0 +1,88 @@
+.red {
+    color: red;
+}
+
+body {
+    font-family: Calibri;
+    background: #eee;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+h2,h4 {
+    text-align: center;
+}
+
+nav {
+    height: 100px;
+    background-color: white;
+    margin: 20px 0px;
+    text-align: center;
+    line-height: 100px;
+    font-size:  24px;
+}
+
+nav li {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav a {
+    text-decoration:  none;
+    color: inherit;
+}
+
+.name {
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+}
+
+.program {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+.row {
+    margin: 0 15%;
+}
+
+
+.quote {
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+
+
+.parts {
+    margin-bottom: 50px;
+    padding: 25px 25px;
+    background: rgba(255,255,255,0.95);
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 2;
+}
+
+hr {
+    max-width: 400px;
+}
+
+footer {
+    background: #fff;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+}
