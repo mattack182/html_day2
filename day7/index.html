@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<style>
+		li {
+			list-style-type: none;
+			display: inline-block;
+			text-align: center;
+			text-shadow: 2px 2px 1px #EEEEEE;
+		}
+	</style>
+
+	<title>Input</title>
+</head>
+<body>
+	<div class="jumbotron">
+	  <h1 class="display-4">Form Application</h1>
+	  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+	  <hr class="my-1">
+	  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+	  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="#">About us |</a></li>
+			<li><a href="#">Products |</a></li>
+			<li><a href="#">Deals |</a></li>
+			<li><a href="#">Contacts</a></li>
+		</ul>
+	</nav>
+
+	<pre>
+	#define MAXVALUE = 100;
+	int main(){
+		int counter = 0;
+		return counter;
+	}
+		
+	</pre>
+
+	<!-- <center> This is OBSOLETE -->
+	<div style="text-align: center;">
+		<figure style="display: inline-block; text-align: center;">
+			<img src="canoe.jpg" alt="">
+			<figcaption>Canoe at Emerald lake..</figcaption>
+		</figure>
+		
+		<figure style="display: inline-block;  text-align: center;">
+			<img src="beach.jpg" alt="">
+			<figcaption>Secret Spot..</figcaption>		
+		</figure>
+	</div>
+
+	<!-- </center> This is OBSOLETE -->
+
+	<div style="margin-right: 30px; text-align: left;">
+	<form action="">
+	<fieldset>
+		<legend>Form Application</legend>
+		<div>
+			<label for="listItems">Type your browser to the box below</label>
+		</div>
+		
+		<input id="listItems" list="browsers" name="browsers_url" placeholder="choose your browser">
+			<datalist id="browsers">
+				<option value="Chrome"></option>
+				<option value="Firefox"></option>
+				<option value="IE"></option>
+				<option value="Edge"></option>
+				<option value="Safari"></option>
+			</datalist>			
+		<input type="number" name="oneToTen" min="0" max="100" step="10">
+		
+		<br>
+		<br>
+		
+		<div>
+			<label for="firstname">First Name</label>
+			<input id="firstname" type="text">
+		</div>
+
+		<div>
+			<label for="lastname">Last Name</label>
+			<input id="lastname" type="text">
+		</div>
+
+		<div>			
+			<div>
+				<input type="checkbox" name="html5" checked>HTML5
+			</div>			
+			<div>
+				<input type="checkbox" name="CCS3" checked>CSS3
+			</div>			
+			<input type="checkbox" name="Javascript" checked>JavaScript
+			<input type="checkbox" name="Bootstrap">Bootstrap
+		</div>
+
+		<div>
+			<select name="dropdown" id="">
+				<option value="webdev" selected="">Web Development</option>
+				<option value="general">General Programming</option>
+				<option value="embedded">Embedded Developer</option>
+				<option value="gamedev">Game Development</option>
+				<option value="ecomm">E-commerce Development</option>
+			</select>
+		</div>
+
+		<div>
+			<a href="mailto:alexbohn85@gmail.com?Subject=A%20question%20about...">Send email</a>
+		</div>
+		
+		<input type="file">
+		<br>
+		<input class="btn btn-primary" type="submit">
+	</fieldset>
+	</form>
+	</div>
+
+	
+	<details>
+		<summary>CSS Article</summary>
+		<article>
+			<h2>How to create tables using CSS</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur omnis, totam temporibus provident magnam perferendis dolor sint aperiam ullam beatae reiciendis incidunt harum architecto neque ipsum quae eligendi praesentium necessitatibus, a sequi magni ratione iusto!</p>
+		</article>
+	</details>
+
+	<details>
+		<summary>Javascript Article</summary>
+		<article>
+			<h2>Javascript + DOM</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi perferendis tenetur nihil aperiam magnam porro animi minima quis optio vitae earum maiores illo, inventore tempora. Quae, minus amet et unde ex non molestiae reiciendis, consequatur eos repudiandae omnis, perferendis, cupiditate nostrum sapiente. At, voluptate, quos.</p>
+		</article>
+	</details>
+	<footer>
+		<address>
+			Written by Alex Bohn<br>
+			Visit us at:<br>
+			7051 holy st<br>
+			Canada
+		</address>
+	</footer>
+
+</body>
+</html>

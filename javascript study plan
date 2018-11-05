@@ -1,0 +1,268 @@
+The lesson plan
+Here’s a quick table of contents for your viewing pleasure:
+
+
+Module 1
+— JavaScript and its Ecosystem
+How to use this course
+What is JavaScript and what its used for
+Varying versions of JavaScript
+JavaScript frameworks and libraries
+
+Module 2
+— JavaScript Basics
+Your JavaScript file
+Preparing your text editor
+The console
+Comments
+You don’t need semicolons
+Strings, numbers, and booleans
+Declaring variables
+Functions
+Arrow functions
+Intro to objects
+If/else statements
+The NOT operator
+Null and undefined
+The BOM and the DOM
+Selecting an element
+Changing classes
+Listening to events
+Callbacks
+
+Module 3
+— Building simple components
+How to think like a developer
+How to use the starter template
+Do this for every component
+Hands on: building an off-canvas menu
+Hands on: building a modal window
+Lessons from the building process
+Debugging errors
+How to use a linter
+
+Module 4
+— Arrays and loops
+Intro to arrays
+For loops
+The forEach loop
+Selecting multiple elements
+Node vs Elements
+Hands on: Building an accordion
+
+Module 5
+— DOM basics
+Id, classes, tags, and attributes
+Changing CSS with JavaScript
+Getting CSS with JavaScript
+Changing attributes
+Finding an element’s size and position
+DOM Traversals
+Hands on: Building a tabbed component
+Hands on: Building a carousel
+Hands on: Building a carousel (part 2)
+
+Module 6
+— Events deep dive
+The listening element
+Default behaviors
+Event propagation
+Event delegation
+Removing event listeners
+Hands on: Improving the modal window
+Hands on: Improving the accordion
+Hands on: Improving the tabbed component
+Hands on: Improving the carousel
+
+Module 7
+— Transitions and Animations
+CSS transitions
+CSS animations
+Jank-free animations
+Integrating CSS transitions and animations with Javascript
+Hands on: Animating the off canvas menu
+Hands on: Animating the accordions
+Hands on: Animating the carousel
+Animating with JavaScript
+The Greensock Animation API (gsap)
+Hands on: Animating the modal window
+
+Module 8
+— Useful JavaScript features
+Ternary operators
+And and OR operators
+Early returns
+Template literals
+Destructuring
+Default parameters
+Enhanced object literals
+Rest and spread operators
+Useful array methods
+Array.prototype.reduce
+Looping through objects
+Implicit return with objects
+Hands on: Improving the according
+Hands on: Improving the carousel
+
+Module 9
+— JavaScript best practices
+Write declarative code
+Build functions with one purpose
+Understanding Scope
+Understanding State
+Don’t reassign
+Don’t mutate
+Prevent objects from mutating
+Prevent arrays from mutating
+Write pure functions
+Hands on: Refactoring the off-canvas
+Hands on: Refactoring modal window
+Hands on: Refactoring accordion
+Hands on: Refactoring tabbed component
+Hands on: Refactoring carousel
+
+Module 10
+— Creating HTML Elements*
+Changing text and HTML
+Creating HTML elements
+Adding multiple HTML elements at once
+Removing elements
+Hands on: Improving carousel
+Hands on: Building a calculator
+Hands on: Building a calculator (part 2)
+Hands on: Refactoring the calculator
+
+Module 11
+— Forms*
+Intro to Forms
+Getting form fields
+Form fields and their events
+Hands on: building a popover
+Hands on: building an autocomplete input
+Hands on: building a todo-list
+Persistent data
+Hands on: Improving the todo-list
+
+Module 12
+— Dates*
+The date object
+Hands on: Building a datepicker
+
+Module 13
+— Asynchronous JavaScript*
+Introduction to Ajax
+Understanding JSON
+The Fetch API
+Data Types
+JavaScript Promises
+Requests and responses
+Sending post requests
+Authentication
+Handling errors
+Viewing response headers
+CORS and JSONP
+XHR or Fetch
+Using an Ajax library
+Understanding API Documentations
+Understanding CURL
+Hands on: Building a Dota Heroes list
+Hands on: Building a Google maps component
+Hands on: Building a loading indicator
+Hands on: Improving the popover
+Hands on: Improving the carousel
+
+Module 14
+— Advanced asynchronous JavaScript*
+Requesting many resources at once
+Getting Response headers in JavaScript
+Dealing with paginated responses (part 1)
+Dealing with paginated responses (part 2)
+Async and await
+Timeouts
+Async loops
+Hands on: Improving a Dota Heroes list
+Hands on: Improving a Google maps component
+Hands on: Improving a loading indicator
+
+Module 15
+— Scroll, mouse and resize events*
+Handling Scroll events
+Handling Mouse events
+Handling Touch events
+Hands on: building an auto-hiding sticky nav
+Hands on: building a same-page-scroll link
+Hands on: building an infinite-scrolling page
+Hands on: building a scrollspy
+Hands on: building a drag & drop component
+Hands on: improving the carousel
+Hands on: improving the date picker
+
+Module 16
+Keyboard events*
+Handling keyboard events
+Hands on: Improving the off canvas menu
+Hands on: improving the modal window
+Hands on: improving the tabbed component
+Hands on: improving carousel
+Hands on: improving the calculator
+Hands on: improving the popover
+Hands on: improving the Dota heores list
+Hands on: improving the Google maps component
+Hands on: improving the date picker
+
+Module 17
+— Accessibility*
+Getting started with Accessibility
+How to use a screen reader
+Important ARIA Roles
+Hands on: improving the off canvas menu
+Hands on: improving the modal window
+Hands on: improving the accordion
+Hands on: improving the tabbed component
+Hands on: improving the tooltip
+Hands on: improving the calculator
+Hands on: improving the todo-list
+Hands on: improving the date picker
+Hands on: improving the scrollspy
+Hands on: improving the drag & drop component
+
+Module 18
+— Progressive Enhancement*
+The progressive enhancement mindset
+What if there’s no JavaScript?
+Feature detection and polyfilling
+Vendor prefxing
+Hands on: Enhancing every component you’ve built
+
+Module 19
+— Object-oriented programming
+What is Object Oriented Programming?
+This in Javascript
+Javascript Classes
+Inheritance
+Prototype in Javascript
+Inheritance with Prototype
+Constructing objects
+Composition and inheritance
+Private and public variables
+Call, bind and apply
+
+Module 20
+— Integrating components*
+PubSub pattern
+Custom events
+ES6 imports
+Decoupling
+Hands on: Combining loading indicator with other components
+
+Module 21
+— Single page applications*
+The foundation to frontend frameworks
+The MVC Architecture
+Hands on: building the card generator
+Routing
+Hands on: adding routing to the card generator
+Data flow with vanilla-style flux/redux
+Hands on: adding data-flow to the card generator
+Authentication
+Hands on: adding authentication to the card generator
