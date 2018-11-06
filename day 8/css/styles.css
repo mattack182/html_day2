@@ -1,0 +1,19 @@
+p {
+	color: red;
+	font-family: monospace;
+}
+
+p:hover {
+	color: gray;
+}
+
+h1 {
+	font-family: monospace;
+	font-style: italic;
+	display: contents;
+}
+
+h1:hover {
+	color: blue;
+	display: contents;
+}
