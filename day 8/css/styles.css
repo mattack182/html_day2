@@ -17,3 +17,11 @@ h1:hover {
 	color: blue;
 	display: contents;
 }
+
+#h1_2nd {
+	color: green;
+}
+
+.class_can_be_reused {
+	color: pink;
+}
