@@ -1,0 +1,180 @@
+h1 {
+	color: purple;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-bottom: 0px;
+}
+
+h4 {
+	margin-bottom: 0px;
+}
+
+address {
+	margin-top: 0px;
+	font-style: normal;
+}
+
+address p {
+	font-family: sans-serif;
+	margin-top: inherit;
+}
+
+.gray {
+	color: gray;
+}
+
+article {
+	width: 90%;
+	margin: auto;
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+.header {
+	text-align: center;
+}
+
+.footer {
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+.div_img {
+	display: inline;
+}
+
+#img_git {
+	width: 90px;
+	margin-top: auto;
+}
+
+#img_linkedin {
+	width: 115px;
+	margin-left: 60px;
+}
+
+.hr_article_1 {		
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 138px;
+}
+.hr_article_2 {		
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 123px;
+}
+.hr_article_3 {		
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 92px;
+}
+.hr_article_4 {		
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 78px;
+}
+.hr_article_5 {		
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 35px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;	
+}
+
+.p_list {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.p_list_link {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-indent: 20px;	
+}
+
+li {
+	margin-bottom: 15px;
+}
+
+
+div {
+	text-align: center;
+}
+
+.div_form {	
+	width: 100%;
+	background-color: #EEEEEE;
+	margin: 15px auto;
+	text-align: left;
+}
+
+form {
+	padding-left: 15px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a {
+	color: gray;	
+}
+
+.div_body {
+	width: 80%;
+	margin: auto;
+}
+
+.input_field {
+	background-color: #BBBBBB;
+	border: 0px;
+	height: 20px;
+	width: 100%;
+	margin-bottom: 5px;	
+}
+
+label {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.input_button {
+	background-color: #AAAAAA;
+	border: 0px;
+	height: 25px;
+	margin-top: 10px;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	background-color: #BBBBBB;
+	border: 0px;
+
+}
+
+.mapp {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0px;
+    margin-top: 15px;
+}
+
+.mapp iframe{
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
