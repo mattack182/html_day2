@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+	<title>This word</title>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>	
+	<form action="">
+		<input type="text" onblur="change(this);">
+		<input type="text" onblur="change(this);">
+		<input type="text" onmouseover="change(this);">
+		<button id="actionButton1">Click Here 1</button>
+		<button id="actionButton2">Click Here 2</button>
+		<button id="actionButton3">Remove EventListener</button>
+	</form>
+	<p id="demo"></p>
+	<script>
+		// Event Handling in JS
+		function change(objectFromHTML){
+			objectFromHTML.style.backgroundColor = 'tomato';
+		}
+
+		function myEvent(){
+			alert("you clicked me! addEventListener()");
+		}		
+
+		let button1 = document.getElementById("actionButton1");
+		let button2 = document.getElementById("actionButton2");
+		let button3 = document.getElementById("actionButton3");
+		
+		button1.onclick = function() {
+			alert("you clicked me! yay");
+		};
+
+		document.getElementsByTagName("html")[0].addEventListener("click", function(){
+			console.log(event.target);
+		});
+
+
+
+		button2.addEventListener("click", myEvent);
+
+		button3.addEventListener("click", function(){
+			if(button2.addEventListener){
+				button2.removeEventListener("click", myEvent);
+			}
+		});
+
+		// Damn motherfucker closure!
+		let startCounter = (function(){
+			let counter = 1;
+			return function(){ 
+				counter += 1; 
+				return counter;
+			};
+		}());
+
+
+		// var canvas = document.getElementById("myCanvas");
+		// var canvasWidth = canvas.width;
+		// var canvasHeight = canvas.height;
+		// var ctx = canvas.getContext("2d");
+		// var canvasData = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
+
+		// // That's how you define the value of a pixel //
+		// function drawPixel (x, y, r, g, b, a) {
+		//     var index = (x + y * canvasWidth) * 4;
+
+		//     canvasData.data[index + 0] = r;
+		//     canvasData.data[index + 1] = g;
+		//     canvasData.data[index + 2] = b;
+		//     canvasData.data[index + 3] = a;
+		// }
+
+		// // That's how you update the canvas, so that your //
+		// // modification are taken in consideration //
+		// function updateCanvas() {
+		//     ctx.putImageData(canvasData, 0, 0);
+		// }
+
+		// let my_array = [];
+		// for(let i = 0; i < 1000; i += 1){
+		// 	my_array.push()			
+		// }
+
+		class myDate {	
+			let abc = "Alex";
+			static staticDate(){
+				return "This is a static function";
+			}
+
+			nonStaticDate(){
+				return "blaaaa";
+			}
+		}
+
+	</script>
+
+
+
+	<!-- Objects in JS -->
+	<script>
+	var Person = function ( name ) {    
+	    
+	    // Private variables and functions that only
+	    // ..other private or public functions may access
+	    // ..and cannot be accessed outside this Module
+	    var age       = 0,
+	        maxAge    = 30,
+	        maxWeight = 80,
+	        isAlive   = true,
+	        weight    = 20,
+	        name      = name || 'Un-named';
+	    
+	    let growOld = function () { 
+	        if ( age++ >= maxAge ) {
+	            die();
+	        }
+	    }
+	    var gainWeight = function () { 
+	        weight++;
+	        if ( weight >= maxWeight ) {
+	            die();
+	        }
+	    }
+
+	    var loseWeight = function () { 
+	        weight--;
+	        if ( weight <= 0 ) {
+	            die();
+	        }
+	    } 
+
+	    var die = function () { isAlive = false; }
+	    
+
+	    // All the properties and methods contained by 
+	    // ..this object being returned will be public
+	    // ..and will be accessible in the global scope.
+	    return {
+	        speak : function () { 
+	            if ( !isAlive ) {
+	                alert('Dead man can\'t speak.');
+	                return;
+	            }
+
+	            alert('Speaking...');
+	            growOld(); 
+	        },
+
+	        walk : function () { 
+	            if( !isAlive ) {
+	                alert('Dead man can\'t walk');
+	                return;
+	            }
+
+	            alert('Walking'); 
+	            growOld(); 
+	            loseWeight(); 
+	        },
+
+	        eat : function () {
+	            if ( !isAlive ) {
+	                alert('Dead man can\'t eat');
+	            }
+	            gainWeight(); 
+	        }
+	    }
+	}
+	</script>
+
+</body>
+</html>
+
