@@ -3,7 +3,50 @@
 	<title>Day 15 - JS Functions</title>
 </head>
 <body>	
-	<a id="demo" href="">TESTE</a>
+	<p>Introduce yourself!</p>
+	<p id="output"></p>
+	<p id="output2"></p>
+
+	<script>
+
+		// JSON syntax -> '{"name":value, "name", value}';
+		let myJSON = '{"name":"John","age":31, "city":"New York"}';
+		let myObj = JSON.parse(myJSON);
+		document.getElementById("output").innerHTML =
+			myObj.name + '<br>' +
+			myObj.age + '<br>' +
+			myObj.city + '<br>'
+
+		// JavaScript Object notation syntax -> { name: value, name: value}
+		let pAlex = {
+			age: 33,
+			name: "Alex Bohn",
+			speak: function(){
+				document.getElementById("output2").innerHTML = `Hello my name is ${this.name}, I am ${this.age} years old.`;
+			}
+		}
+		// call function speak from object pAlex
+		pAlex.speak();
+
+		// create a class 
+		class Person{
+			var Teste = 10;	
+			constructor(name, canDance){
+				this.#name = name;
+				this.canDance = canDance;
+				this.speak = function(){
+					console.log(`Hello my name is ${this.name} and people say I can dance thats ${this.canDance}`);
+				};
+			}
+		}
+
+		// create a new instance of class Person
+		const cAlex = new Person("Alex Bohn", true);
+		cAlex = new Person("teste", false);
+		let cAlex1 = new Person("Teste 2", true);
+		let cAlex2 = new Person("Teste 3", false);
+
+	</script>
 
 	<script src="./js/main.js"></script>
 </body>

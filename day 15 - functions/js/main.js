@@ -29,7 +29,7 @@ function outerFunction(){
 	return inner;
 }
 
-// we call the function once and the scope is "saved" inside the var
+// we create a reference to that function and it keeps scope in the stack
 let projectCounter = outerFunction();
 
 console.log(projectCounter());
